@@ -1,27 +1,43 @@
 {
-  "name": "react",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.30.1",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react-swc": "^3.10.2",
-    "eslint": "^9.30.1",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.3.0",
-    "vite": "^7.0.4"
-  }
+	"name": "yocto-queue",
+	"version": "0.1.0",
+	"description": "Tiny queue data structure",
+	"license": "MIT",
+	"repository": "sindresorhus/yocto-queue",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"queue",
+		"data",
+		"structure",
+		"algorithm",
+		"queues",
+		"queuing",
+		"list",
+		"array",
+		"linkedlist",
+		"fifo",
+		"enqueue",
+		"dequeue",
+		"data-structure"
+	],
+	"devDependencies": {
+		"ava": "^2.4.0",
+		"tsd": "^0.13.1",
+		"xo": "^0.35.0"
+	}
 }
